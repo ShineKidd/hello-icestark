@@ -1,0 +1,28 @@
+{
+  "name": "hello-icestark",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deps": "pnpm install && node scripts/install.mjs",
+    "dev": "node scripts/dev.mjs",
+    "serve": "node scripts/serve.mjs"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShineKidd/hello-icestark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShineKidd/hello-icestark/issues"
+  },
+  "homepage": "https://github.com/ShineKidd/hello-icestark#readme",
+  "devDependencies": {
+    "zx": "^5.2.0"
+  }
+}
